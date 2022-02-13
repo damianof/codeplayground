@@ -5,6 +5,9 @@ const prefix = 'monaco-editor/esm/vs'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    port: 3007
+  },
   plugins: [vue()],
   build: {
     rollupOptions: {
